@@ -6,8 +6,8 @@
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://github.com/bharatsharma19">
+			Bharat Sharma
 		</a>
 	</div>
 
@@ -36,8 +36,9 @@
 	}
 
 	.corner {
-		width: 3em;
+		width: 6em;
 		height: 3em;
+		margin-left: 8px;
 	}
 
 	.corner a {
@@ -46,12 +47,7 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
+		margin-left: 8px;
 	}
 
 	nav {
